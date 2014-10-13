@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<style>
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFF;
+	padding:30px;
+}
+img{
+	width:100%;
+	max-width:300px;
+	height:auto;
+}
+.image div{
+	font-size:24px;
+	text-align:center;
+}
+.image{
+	float:left;
+}
+.image img{
+	display:block;
+}
+@media screen and (min-width : 320px) and (max-width:479px){
+	body{ background-color:#FF0000; 	}
+	.image img{
+		display:none;
+	}
+}
+@media screen and (min-width : 480px){
+	body{ background-color:#096; 	}
+}
+@media screen and (min-width : 640px){
+	body{ background-color:#009; 	}
+}
+@media screen and (min-width : 800px){
+	body{ background-color:#00F; 	}
+	
+}
+@media screen and (min-width : 1024px){
+	body{ background-color:#0C0; 	}
+}
+
+</style>
+<title>Untitled Document</title>
+
+<script>
+window.onresize = function()
+{ 
+	//document.getElementById("si").innerHTML = window.innerWidth;
+}
+</script>
+</head>
+
+<body>
+<div class="image"><img src="B1.png" /><div>Image 1</div></div>
+<div class="image"><img src="B2.png" /><div>Image 2</div></div>
+<div class="image"><img src="B3.png" /><div>Image 3</div></div>
+<div class="image"><img src="B4.png" /><div>Image 4</div></div>
+<div class="image"><img src="B5.png" /><div>Image 5</div></div>
+<div class="image"><img src="B6.png" /><div>Image 6</div></div>
+</body>
+</html>

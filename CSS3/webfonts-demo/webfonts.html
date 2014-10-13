@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style>
+@font-face {
+  font-family: 'PTSansRegular';
+  src: url('PTSansRegular.eot');
+  src: url('PTSansRegular.eot?#iefix') format('embedded-opentype'),
+       url('PTSansRegular.woff') format('woff'),
+       url('PTSansRegular.ttf') format('truetype'),
+       url('PTSansRegular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSansIta';
+  src: url('PTSansItalic.eot');
+  src: url('PTSansItalic.eot?#iefix') format('embedded-opentype'),
+       url('PTSansItalic.woff') format('woff'),
+       url('PTSansItalic.ttf') format('truetype'),
+       url('PTSansItalic.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PTSansBold';
+  src: url('PTSansBold.eot');
+  src: url('PTSansBold.eot?#iefix') format('embedded-opentype'),
+       url('PTSansBold.woff') format('woff'),
+       url('PTSansBold.ttf') format('truetype'),
+       url('PTSansBold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('PTSansBoldItalic.eot');
+  src: url('PTSansBoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('PTSansBoldItalic.woff') format('woff'),
+       url('PTSansBoldItalic.ttf') format('truetype'),
+       url('PTSansBoldItalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+} 
+
+body {
+	line-height: 1;	
+}
+
+h1 { 
+  font-family: PTSansRegular;
+  font-size: 48px;
+  margin: 0 0 15px 0;
+}
+
+p { 
+  font-family: PTSansRegular;
+  font-size: 36px;
+  margin: 0;
+  /*text-align:center;*/
+  text-height:font-size;
+  text-indent:20px;
+  padding:10px 10px 20px 20px;
+  margin:10px 1px 2px 30px;
+  background-color:#CCC;
+  border:2px solid #333;
+  box-sizing:border-box;
+}
+.it{
+	font-family:PTSansBold;
+	color:#0F0;
+	text-shadow:2px 5px 2px #666666;
+}
+
+</style>
+</head>
+
+<body>
+<h1>Testing out Web Fonts</h1>
+<p>This is a new feature of <span class="it">CSS3</span>, where it can embed <strong>custom</strong> fonts</p>
+</body>
+</html>
